@@ -22,3 +22,5 @@ Web application with database (on faculty's server) enables users to log in for 
   - can impose isolation for person
   - can change the password
   - can search for a person or people with given data (personal ID number, first name, last name or any combination of these)
+
+More details with examples are included in pdf file "Dokumentacja projektu".
