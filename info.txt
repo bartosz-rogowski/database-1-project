@@ -1,0 +1,4 @@
+link do strony na Pascalu: pascal.fis.agh.edu.pl/~8rogowski/bazydanych/index.html
+(wymagane tunelowanie z Pascalem w celu poprawnego działania aplikacji)
+
+baza danych znajduje się w schemacie o nazwie: projekt

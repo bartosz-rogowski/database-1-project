@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="Author" content="Bartosz Rogowski" />
+    <title>
+        Strona główna
+    </title>
+    <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+    <style>
+        #container {
+            width: 1080px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            background-image: url(bacteria-163711_1280.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            font-size: 24px;
+        }
+
+        a
+        {
+            text-align: center;
+            display: block;
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 800px;
+            line-height: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            border-radius: 40px/40px;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        h2{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Witaj! Wybierz typ konta, na jakie chcesz się zalogować:</h2>
+        <a href="osoba/osoba_log.html">Zwykły użytkownik (Osoba/Pacjent)</a><br>
+        <a href="lekarz/lekarz_log.html">Lekarz</a><br>
+        <a href="labprac/labprac_log.html">Pracownik laboratorium</a><br>
+        <a href="sanepid/sanepid_log.html">Pracownik wojewódzkiej placówki sanepidu</a><br>
+        <a href="dodaj_osobe_form.php">Stwórz nowe konto (Osoba/Pacjent)</a><br>
+    </div>
+</body>
+
+</html>

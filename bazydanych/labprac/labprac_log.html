@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="Author" content="Bartosz Rogowski" />
+    <title>
+        Zaloguj się jako pracownik laboratorium
+    </title>
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <h2>Zaloguj się</h2>
+        <form name="zaloguj" method="post" action="labprac_log.php">
+            Podaj login:<br>
+            <input type="text" name="login" pattern="[0-9]{1,}" title="Login składa się z cyfr"><br><br>
+            Podaj hasło:<br>
+            <input type="password" name="pass"><br><br>
+            <input type="submit" value="Zaloguj" style="font-size: 24px;">
+        </form>
+        <br>
+        <a class="button" href="../index.html" title="Powrót do strony głównej">Wróć do strony głównej</a>
+    </div>
+</body>
+
+</html>
